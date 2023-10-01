@@ -1,0 +1,5 @@
+I would characterize the listeners aura using an algorythm that takes the danceability, energy, loudness, speechiness valence and tempo of songs that they've listen to.
+For example if listener A plays songs of high dancibility, loudness and tempo, we may assume that the listeners may be into EDMs type of music or perphaps with similarity of those played in clubs.
+Of course we have to factor in the quantity of the times the songs were played too, since listeners may be just 'exploring' new songs. So a good way could be to only take into account the details of songs that has been played more than 'n' amount of times.
+However there are some (or alot) of listeners that like to listen to songs sang by a particular artist, which makes the creation of the algorythm much of a hassle and hard to pinpoint which genre/etc to determine listeners' aura.
+I'd suggest taking song's genre into account too because there may be different types of songs that fit into lets say the average of danceability, energy, loudness, speechiness valence and tempo.

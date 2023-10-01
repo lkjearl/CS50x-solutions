@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index Summary
+{% endblock %}
+
+{% block main %}
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <td>Stock Symbol</td>
+                <td>Shares Quantity</td>
+                <td>Current Price</td>
+                <td>Current Value</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in stocks%}
+            <tr>
+                <td>{{ data["symbol"] }}</td>
+                <td>{{ data["allshares"] }}</td>
+                <td>{{ usd(data["price"]) }}</td>
+                <td>{{ usd(data["value"]) }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Cash Balance: </td>
+                <td>{{ usd(cash) }}</td>
+            </tr>
+            <tr>
+                <td>Total balance: </td>
+                <td>{{ usd(balance) }}</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+{% endblock %}

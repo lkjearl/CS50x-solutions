@@ -1,0 +1,43 @@
+body {
+    background-color: #FFFFF0;
+}
+#font1 {
+    font-family: Verdana;
+    font-size: 50px;
+    text-emphasize: underline;
+    color: grey;
+}
+.b {
+    font-weight: bold;
+}
+div.container {
+    text-align: center;
+}
+ol{
+    display: inline-block;
+    text-align: left;
+}
+ul{
+    display: inline-block;
+    text-align: left;
+}
+table {
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr {
+    height: 40px;
+}
+td {
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    font-size: 17pt;
+    font-family: georgia;
+    text-align: center;
+    width: 280px;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+   background-color: red;
+}

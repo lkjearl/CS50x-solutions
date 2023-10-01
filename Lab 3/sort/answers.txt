@@ -1,0 +1,10 @@
+sort1 uses: Bubble sort.
+How do you know?: Bubble sort has the best case scenario of only "n" steps on sorted arrays; Quicker than best case of selection sort (n^2) and merge sort (n logn). Plus it's very much slower on the random.txt run which enforces the concept of best case n and worst case n^2 steps.
+
+sort2 uses: Merge sort.
+
+How do you know?: Performed quickest on random50000.txt, timings also similar for sorted50000.txt; Which further enforce the concept of theta (n logn) for best and worst case.
+
+sort3 uses: Selection sort.
+
+How do you know?: Longest time taken for random and sorted50000.txt; Enforcing the concept of theta (n2) for bothe best and worst case.
